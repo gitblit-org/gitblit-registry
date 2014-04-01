@@ -1,0 +1,20 @@
+{
+    "name": "Gitblit Registry",
+    "registrations": [
+        {
+            "id": "com.gitblit.plugin:powertools",
+            "name": "powertools",
+            "description": "Plugin providing useful enhancements for Gitblit",
+            "provider": "gitblit.com",
+            "projectUrl": "https://github.com/gitblit/gitblit-powertools-plugin",
+            "currentVersion": "1.0.0",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "date": "2014-04-01T00:00:00Z",
+                    "url": "http://gitblit.github.io/gitblit-registry/com/gitblit/plugin/powertools/1.0.0/powertools-1.0.0.zip"
+                }
+            ]
+        }
+    ]
+}
