@@ -1,0 +1,7 @@
+{
+  "name": "gitblit-powertools",
+  "description": "Plugin providing useful enhancements for Gitblit",
+  "id": "com.gitblit.plugin",
+  "affinity": "com.gitblit.plugin",
+  "projectUrl": "http://gitblit.com"
+}

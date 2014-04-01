@@ -1,0 +1,17 @@
+[
+
+{
+  "name": "gitblit-powertools",
+  "description": "Plugin providing useful enhancements for Gitblit",
+  "groupId": "com.gitblit.plugin",
+  "artifactId": "powertools",
+  "version": "1.0.0",
+  "date": "2014-03-31",
+  "files": {
+    "pom": { "path": "com/gitblit/plugin/powertools/1.0.0/powertools-1.0.0.pom" },
+    "package": { "path": "com/gitblit/plugin/powertools/1.0.0/powertools-1.0.0.zip", "size":"85 KB" },
+    "sources": { "path": "", "size":"" },
+    "javadoc": { "path": "", "size":"" }
+   }
+}
+]
