@@ -7,8 +7,8 @@
             "description": "Plugin providing useful enhancements for Gitblit",
             "provider": "gitblit.com",
             "projectUrl": "https://github.com/gitblit/gitblit-powertools-plugin",
-            "currentVersion": "1.0.0",
-            "versions": [
+            "currentRelease": "1.0.0",
+            "releases": [
                 {
                     "version": "1.0.0",
                     "date": "2014-04-01T00:00:00Z",
