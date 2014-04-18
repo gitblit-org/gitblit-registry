@@ -6,7 +6,7 @@
             "description": "Command and control Gitblit over SSH",
             "provider": "gitblit.com",
             "projectUrl": "https://github.com/gitblit/gitblit-powertools-plugin",
-            "currentRelease": "1.1.0",
+            "currentRelease": "1.2.0",
             "releases": [
 
                 {
@@ -34,7 +34,7 @@
             "description": "Remove the ticket's branch when it is closed, create the branch when it is re-opened",
             "provider": "gitblit.com",
             "projectUrl": "https://github.com/gitblit/gitblit-smartticketbranches-plugin",
-            "currentRelease": "1.0.0",
+            "currentRelease": "1.0.1",
             "releases": [
 
                 {
