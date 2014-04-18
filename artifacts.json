@@ -1,6 +1,20 @@
 [
 
 {
+  "name": "gitblit-smartticketbranches-plugin",
+  "description": "Remove the ticket's branch when it is closed, create the branch when it is re-opened",
+  "groupId": "com.gitblit.plugin",
+  "artifactId": "SmartTicketBranches",
+  "version": "1.0.1",
+  "date": "2014-04-18",
+  "files": {
+    "pom": { "path": "com/gitblit/plugin/SmartTicketBranches/1.0.1/SmartTicketBranches-1.0.1.pom" },
+    "package": { "path": "com/gitblit/plugin/SmartTicketBranches/1.0.1/SmartTicketBranches-1.0.1.zip", "size":"14 KB" },
+    "sources": { "path": "", "size":"" },
+    "javadoc": { "path": "", "size":"" }
+   }
+},
+{
   "name": "gitblit-powertools",
   "description": "Plugin providing useful enhancements for Gitblit",
   "groupId": "com.gitblit.plugin",
@@ -24,6 +38,20 @@
   "files": {
     "pom": { "path": "com/gitblit/plugin/powertools/1.1.0/powertools-1.1.0.pom" },
     "package": { "path": "com/gitblit/plugin/powertools/1.1.0/powertools-1.1.0.zip", "size":"92 KB" },
+    "sources": { "path": "", "size":"" },
+    "javadoc": { "path": "", "size":"" }
+   }
+},
+{
+  "name": "gitblit-powertools-plugin",
+  "description": "Control and command Gitblit over SSH",
+  "groupId": "com.gitblit.plugin",
+  "artifactId": "powertools",
+  "version": "1.2.0",
+  "date": "2014-04-18",
+  "files": {
+    "pom": { "path": "com/gitblit/plugin/powertools/1.2.0/powertools-1.2.0.pom" },
+    "package": { "path": "com/gitblit/plugin/powertools/1.2.0/powertools-1.2.0.zip", "size":"92 KB" },
     "sources": { "path": "", "size":"" },
     "javadoc": { "path": "", "size":"" }
    }

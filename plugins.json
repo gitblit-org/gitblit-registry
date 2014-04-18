@@ -2,9 +2,8 @@
     "name": "Gitblit Registry",
     "registrations": [
         {
-            "id": "com.gitblit.plugin:powertools",
-            "name": "powertools",
-            "description": "Plugin providing useful enhancements for Gitblit",
+            "id": "powertools",
+            "description": "Command and control Gitblit over SSH",
             "provider": "gitblit.com",
             "projectUrl": "https://github.com/gitblit/gitblit-powertools-plugin",
             "currentRelease": "1.1.0",
@@ -21,6 +20,34 @@
                     "date": "2014-04-10T20:00:00Z",
                     "requires": "1.5.0",
                     "url": "${self}/com/gitblit/plugin/powertools/1.1.0/powertools-1.1.0.zip"
+                },
+                {
+                    "version": "1.2.0",
+                    "date": "2014-04-18T05:00:00Z",
+                    "requires": "1.5.0",
+                    "url": "${self}/com/gitblit/plugin/powertools/1.2.0/powertools-1.2.0.zip"
+                }
+            ]
+        },
+        {
+            "id": "SmartTicketBranches",
+            "description": "Remove the ticket's branch when it is closed, create the branch when it is re-opened",
+            "provider": "gitblit.com",
+            "projectUrl": "https://github.com/gitblit/gitblit-smartticketbranches-plugin",
+            "currentRelease": "1.0.0",
+            "releases": [
+
+                {
+                    "version": "1.0.0",
+                    "date": "2014-04-01T20:00:00Z",
+                    "requires": "1.5.0",
+                    "url": "${self}/com/gitblit/plugin/SmartTicketBranches/1.0.0/SmartTicketBranches-1.0.0.zip"
+                },
+                {
+                    "version": "1.0.1",
+                    "date": "2014-04-18T05:00:00Z",
+                    "requires": "1.5.0",
+                    "url": "${self}/com/gitblit/plugin/SmartTicketBranches/1.0.0/SmartTicketBranches-1.0.1.zip"
                 }
             ]
         }
