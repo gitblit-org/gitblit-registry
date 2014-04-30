@@ -50,6 +50,22 @@
                     "url": "${self}/com/gitblit/plugin/SmartTicketBranches/1.0.1/SmartTicketBranches-1.0.1.zip"
                 }
             ]
+        },
+{
+            "id": "slack",
+            "description": "Post Gitblit events to Slack channels",
+            "provider": "gitblit.com",
+            "projectUrl": "https://github.com/gitblit/gitblit-slack-plugin",
+            "currentRelease": "1.0.0",
+            "releases": [
+
+                {
+                    "version": "1.0.0",
+                    "date": "2014-04-30T20:00:00Z",
+                    "requires": "1.5.0",
+                    "url": "${self}/com/gitblit/plugin/slack/1.0.0/slack-1.0.0.zip"
+                }
+            ]
         }
     ]
 }

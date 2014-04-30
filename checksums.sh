@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Calculates the SHA1 and MD5 hashes for the registry.
 #
