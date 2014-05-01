@@ -9,5 +9,10 @@ function calc() {
   md5sum $file | cut -d" " -f1 > "$file".md5
 }
 
-calc plugins.json
+# validate json
+if cat plugins.json | python -m json.tool > /dev/null
+then
+    # update registry checksums
+    calc plugins.json
+fi
 
