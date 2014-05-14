@@ -15,6 +15,20 @@
    }
 },
 {
+  "name": "gitblit-hipchat-plugin",
+  "description": "Integrate Gitblit with your HipChat team",
+  "groupId": "com.gitblit.plugin",
+  "artifactId": "hipchat",
+  "version": "1.0.0",
+  "date": "2014-05-13",
+  "files": {
+    "pom": { "path": "com/gitblit/plugin/hipchat/1.0.0/hipchat-1.0.0.pom" },
+    "package": { "path": "com/gitblit/plugin/hipchat/1.0.0/hipchat-1.0.0.zip", "size":"29 KB" },
+    "sources": { "path": "", "size":"" },
+    "javadoc": { "path": "", "size":"" }
+   }
+},
+{
   "name": "gitblit-powertools",
   "description": "Plugin providing useful enhancements for Gitblit",
   "groupId": "com.gitblit.plugin",
