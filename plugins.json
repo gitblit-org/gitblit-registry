@@ -57,12 +57,12 @@
                 }
             ]
         },
-{
+        {
             "id": "slack",
             "description": "Post Gitblit events to Slack channels",
             "provider": "gitblit.com",
             "projectUrl": "https://github.com/gitblit/gitblit-slack-plugin",
-            "currentRelease": "1.0.1",
+            "currentRelease": "1.1.0",
             "releases": [
 
                 {
@@ -76,6 +76,27 @@
                     "date": "2014-05-01T17:00:00Z",
                     "requires": "1.5.0",
                     "url": "${self}/com/gitblit/plugin/slack/1.0.1/slack-1.0.1.zip"
+                },
+                {
+                    "version": "1.1.0",
+                    "date": "2014-05-14T03:45:00Z",
+                    "requires": "1.5.0",
+                    "url": "${self}/com/gitblit/plugin/slack/1.1.0/slack-1.1.0.zip"
+                }
+            ]
+        },
+        {
+            "id": "hipchat",
+            "description": "Post Gitblit events to HipChat rooms",
+            "provider": "gitblit.com",
+            "projectUrl": "https://github.com/gitblit/gitblit-hipchat-plugin",
+            "currentRelease": "1.0.0",
+            "releases": [
+                {
+                    "version": "1.0.0",
+                    "date": "2014-05-14T03:45:00Z",
+                    "requires": "1.5.0",
+                    "url": "${self}/com/gitblit/plugin/hipchat/1.0.0/hipchat-1.0.0.zip"
                 }
             ]
         }
