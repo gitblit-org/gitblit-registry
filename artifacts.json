@@ -15,6 +15,20 @@
    }
 },
 {
+  "name": "gitblit-flowdock-plugin",
+  "description": "Integrate Gitblit with your FlowDock team",
+  "groupId": "com.gitblit.plugin",
+  "artifactId": "flowdock",
+  "version": "1.0.0",
+  "date": "2014-05-23",
+  "files": {
+    "pom": { "path": "com/gitblit/plugin/flowdock/1.0.0/flowdock-1.0.0.pom" },
+    "package": { "path": "com/gitblit/plugin/flowdock/1.0.0/flowdock-1.0.0.zip", "size":"47 KB" },
+    "sources": { "path": "", "size":"" },
+    "javadoc": { "path": "", "size":"" }
+   }
+},
+{
   "name": "gitblit-hipchat-plugin",
   "description": "Integrate Gitblit with your HipChat team",
   "groupId": "com.gitblit.plugin",
