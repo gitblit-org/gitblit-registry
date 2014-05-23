@@ -139,5 +139,19 @@
     "sources": { "path": "", "size":"" },
     "javadoc": { "path": "", "size":"" }
    }
+},
+{
+  "name": "gitblit-slack-plugin",
+  "description": "Integrate Gitblit with your Slack team",
+  "groupId": "com.gitblit.plugin",
+  "artifactId": "slack",
+  "version": "1.2.0",
+  "date": "2014-05-23",
+  "files": {
+    "pom": { "path": "com/gitblit/plugin/slack/1.2.0/slack-1.2.0.pom" },
+    "package": { "path": "com/gitblit/plugin/slack/1.2.0/slack-1.2.0.zip", "size":"38 KB" },
+    "sources": { "path": "", "size":"" },
+    "javadoc": { "path": "", "size":"" }
+   }
 }
 ]
