@@ -167,5 +167,19 @@
     "sources": { "path": "", "size":"" },
     "javadoc": { "path": "", "size":"" }
    }
+},
+{
+  "name": "gitblit-tbacl-plugin",
+  "description": "Gitblit Team-Branch ACL (tbacl) Receive Hook",
+  "groupId": "com.gitblit.plugin",
+  "artifactId": "tbacl",
+  "version": "1.0.0",
+  "date": "2014-06-13",
+  "files": {
+    "pom": { "path": "com/gitblit/plugin/tbacl/1.0.0/tbacl-1.0.0.pom" },
+    "package": { "path": "com/gitblit/plugin/tbacl/1.0.0/tbacl-1.0.0.zip", "size":"6 KB" },
+    "sources": { "path": "", "size":"" },
+    "javadoc": { "path": "", "size":"" }
+   }
 }
 ]

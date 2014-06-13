@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <!-- project metadata -->
+  <groupId>com.gitblit.plugin</groupId>
+  <artifactId>tbacl</artifactId>
+  <!-- project versioning -->
+  <versioning>
+    <latest>1.0.0</latest>
+    <release>1.0.0</release>
+    <!-- versions-->
+    <versions>
+      <version>1.0.0</version>
+    </versions>
+    <lastUpdated>20140613174942</lastUpdated>
+  </versioning>
+</metadata>
