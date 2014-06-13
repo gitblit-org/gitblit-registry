@@ -126,6 +126,21 @@
                     "url": "${self}/com/gitblit/plugin/flowdock/1.0.0/flowdock-1.0.0.zip"
                 }
             ]
+        },
+        {
+            "id": "tbacl",
+            "description": "Gitblit Team-Branch ACL (tbacl) Receive Hook",
+            "provider": "gitblit.com",
+            "projectUrl": "https://github.com/gitblit/gitblit-tbacl-plugin",
+            "currentRelease": "1.0.0",
+            "releases": [
+                {
+                    "version": "1.0.0",
+                    "date": "2014-06-13T19:00:00Z",
+                    "requires": "1.5.0",
+                    "url": "${self}/com/gitblit/plugin/tbacl/1.0.0/tbacl-1.0.0.zip"
+                }
+            ]
         }
     ]
 }
