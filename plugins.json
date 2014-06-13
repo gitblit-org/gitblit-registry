@@ -62,7 +62,7 @@
             "description": "Post Gitblit events to Slack channels",
             "provider": "gitblit.com",
             "projectUrl": "https://github.com/gitblit/gitblit-slack-plugin",
-            "currentRelease": "1.2.0",
+            "currentRelease": "1.2.1",
             "releases": [
 
                 {
@@ -88,6 +88,12 @@
                     "date": "2014-05-23T22:00:00Z",
                     "requires": "1.5.0",
                     "url": "${self}/com/gitblit/plugin/slack/1.2.0/slack-1.2.0.zip"
+                },
+                {
+                    "version": "1.2.1",
+                    "date": "2014-06-13T19:00:00Z",
+                    "requires": "1.5.0",
+                    "url": "${self}/com/gitblit/plugin/slack/1.2.1/slack-1.2.1.zip"
                 }
             ]
         },
