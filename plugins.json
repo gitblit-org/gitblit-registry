@@ -147,7 +147,7 @@
         {
             "id": "tbacl",
             "icon": "fa fa-lock",
-            "description": "Gitblit Team-Branch ACL (tbacl) Receive Hook",
+            "description": "Gitblit Team-Branch ACLs",
             "provider": "gitblit.com",
             "projectUrl": "https://github.com/gitblit/gitblit-tbacl-plugin",
             "currentRelease": "1.1.0",
@@ -165,6 +165,22 @@
                     "url": "${self}/com/gitblit/plugin/tbacl/1.1.0/tbacl-1.1.0.zip"
                 }
             ]
+        }        
+    ],
+    "pending" : {
+            "id": "javamelody",
+            "icon": "fa fa-dashboard",
+            "description": "Server monitoring based on JavaMelody",
+            "provider": "gitblit.com",
+            "projectUrl": "https://github.com/gitblit/gitblit-javamelody-plugin",
+            "currentRelease": "1.0.0",
+            "releases": [
+                {
+                    "version": "1.0.0",
+                    "date": "2014-06-17T19:00:00Z",
+                    "requires": "1.6.0",
+                    "url": "${self}/com/gitblit/plugin/javamelody/1.0.0/javamelody-1.0.0.zip"
+                }
+            ]
         }
-    ]
 }

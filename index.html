@@ -44,44 +44,46 @@
       <div class="span12">
         <div id="searchResults" style="clear:both;padding-top:10px;">
           <div ng-repeat="plugin in plugins | filter:query | orderBy: 'id'">
-            <div>
-              <i class="{{plugin.icon}}" ng-show="plugin.icon.length"></i>
-              <b>{{plugin.id}}</b>
-              <small>
-                <span class="muted">by {{plugin.provider}}</span>                
-                <a ng-show="plugin.projectUrl.length" target="_blank" href="{{plugin.projectUrl}}"><i class="fa fa-link"></i></a>
-                <p>                    
-                  {{plugin.description}}
-                  <br/>
-                  <a ng-click="showReleases = !showReleases">releases</a>
-                </p>                
-              </small>
-            </div>
+            <div ng-show="plugin.releases.length">
+              <div>
+                <i class="{{plugin.icon}}" ng-show="plugin.icon.length"></i>
+                <b>{{plugin.id}}</b>
+                <small>
+                  <span class="muted">by {{plugin.provider}}</span>                
+                  <a ng-show="plugin.projectUrl.length" target="_blank" href="{{plugin.projectUrl}}"><i class="fa fa-link"></i></a>
+                  <p>                    
+                    {{plugin.description}}
+                    <br/>
+                    <a ng-click="showReleases = !showReleases">releases</a>
+                  </p>                
+                </small>
+              </div>
               
-            <table class="table table-condensed" ng-show="showReleases">
-              <tbody>
-                <tr ng-repeat="release in plugin.releases | orderBy: '-version'">
-                  <td>
-                    <b>{{release.version}}</b>
-                  </td>
-                  <td>
-                    <small>
-                      <em>{{release.date | date :'longDate'}}</em>
-                    </small>
-                  </td>
-                  <td>
-                    <small>
-                      <em>{{release.requires}}+</em>
-                    </small>
-                  </td>
-                  <td>
-                    <small>
-                      <a ng-show="release.url.length" href="{{release.url}}">download</a>
-                    </small>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+              <table class="table table-condensed" ng-show="showReleases">
+                <tbody>
+                  <tr ng-repeat="release in plugin.releases | orderBy: '-version'">
+                    <td>
+                      <b>{{release.version}}</b>
+                    </td>
+                    <td>
+                      <small>
+                        <em>{{release.date | date :'longDate'}}</em>
+                      </small>
+                    </td>
+                    <td>
+                      <small>
+                        <em>{{release.requires}}+</em>
+                      </small>
+                    </td>
+                    <td>
+                      <small>
+                        <a ng-show="release.url.length" href="{{release.url}}">download</a>
+                      </small>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
      </div>
