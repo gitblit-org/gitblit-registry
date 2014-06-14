@@ -3,6 +3,7 @@
     "registrations": [
         {
             "id": "powertools",
+            "icon": "fa fa-wrench",
             "description": "Command and control Gitblit over SSH",
             "provider": "gitblit.com",
             "projectUrl": "https://github.com/gitblit/gitblit-powertools-plugin",
@@ -37,6 +38,7 @@
         },
         {
             "id": "SmartTicketBranches",
+            "icon": "fa fa-code-fork",
             "description": "Remove the ticket's branch when it is closed, create the branch when it is re-opened",
             "provider": "gitblit.com",
             "projectUrl": "https://github.com/gitblit/gitblit-smartticketbranches-plugin",
@@ -59,6 +61,7 @@
         },
         {
             "id": "slack",
+            "icon": "fa fa-slack",
             "description": "Post Gitblit events to Slack channels",
             "provider": "gitblit.com",
             "projectUrl": "https://github.com/gitblit/gitblit-slack-plugin",
@@ -99,6 +102,7 @@
         },
         {
             "id": "hipchat",
+            "icon": "fa fa-comments",
             "description": "Post Gitblit events to HipChat rooms",
             "provider": "gitblit.com",
             "projectUrl": "https://github.com/gitblit/gitblit-hipchat-plugin",
@@ -126,6 +130,7 @@
         },
         {
             "id": "flowdock",
+            "icon": "fa fa-comments",
             "description": "Post Gitblit events to Flowdock flows",
             "provider": "gitblit.com",
             "projectUrl": "https://github.com/gitblit/gitblit-flowdock-plugin",
@@ -141,6 +146,7 @@
         },
         {
             "id": "tbacl",
+            "icon": "fa fa-lock",
             "description": "Gitblit Team-Branch ACL (tbacl) Receive Hook",
             "provider": "gitblit.com",
             "projectUrl": "https://github.com/gitblit/gitblit-tbacl-plugin",
