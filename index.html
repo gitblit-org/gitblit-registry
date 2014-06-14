@@ -55,6 +55,7 @@
                     {{plugin.description}}
                     <br/>
                     <a ng-click="showReleases = !showReleases">releases</a>
+                    <a style="padding-left:10px;" ng-show="plugin.changelogUrl.length" target="_blank" href="{{plugin.changelogUrl}}">changelog</a>
                   </p>                
                 </small>
               </div>
