@@ -19,6 +19,11 @@
             $http.get('plugins.json').success(function(data) {
                 $scope.name = data.name;
                 $scope.plugins = data.registrations;
+                data.registrations.forEach(function(plugin) {
+                  plugin.releases.forEach(function(release) {
+                    release.url = release.url.replace('${self}', '');
+                  });
+                });
             });
         }
     </script>
