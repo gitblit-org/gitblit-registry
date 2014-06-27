@@ -197,6 +197,20 @@
    }
 },
 {
+  "name": "gitblit-slack-plugin",
+  "description": "Integrate Gitblit with your Slack team",
+  "groupId": "com.gitblit.plugin",
+  "artifactId": "slack",
+  "version": "1.3.0",
+  "date": "2014-06-27",
+  "files": {
+    "pom": { "path": "com/gitblit/plugin/slack/1.3.0/slack-1.3.0.pom" },
+    "package": { "path": "com/gitblit/plugin/slack/1.3.0/slack-1.3.0.zip", "size":"39 KB" },
+    "sources": { "path": "", "size":"" },
+    "javadoc": { "path": "", "size":"" }
+   }
+},
+{
   "name": "gitblit-tbacl-plugin",
   "description": "Gitblit Team-Branch ACL (tbacl) Receive Hook",
   "groupId": "com.gitblit.plugin",
