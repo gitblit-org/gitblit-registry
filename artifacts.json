@@ -85,6 +85,20 @@
    }
 },
 {
+  "name": "gitblit-javamelody-plugin",
+  "description": "Server monitoring based on JavaMelody",
+  "groupId": "com.gitblit.plugin",
+  "artifactId": "javamelody",
+  "version": "1.0.0",
+  "date": "2014-06-27",
+  "files": {
+    "pom": { "path": "com/gitblit/plugin/javamelody/1.0.0/javamelody-1.0.0.pom" },
+    "package": { "path": "com/gitblit/plugin/javamelody/1.0.0/javamelody-1.0.0.zip", "size":"1.7 MB" },
+    "sources": { "path": "", "size":"" },
+    "javadoc": { "path": "", "size":"" }
+   }
+},
+{
   "name": "gitblit-powertools",
   "description": "Plugin providing useful enhancements for Gitblit",
   "groupId": "com.gitblit.plugin",
