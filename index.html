@@ -21,7 +21,7 @@
                 $scope.plugins = data.registrations;
                 data.registrations.forEach(function(plugin) {
                   plugin.releases.forEach(function(release) {
-                    release.url = release.url.replace('${self}', '');
+                    release.url = release.url.replace('${self}/', window.location.href);
                   });
                 });
             });
