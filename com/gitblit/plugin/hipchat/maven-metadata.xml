@@ -5,15 +5,16 @@
   <artifactId>hipchat</artifactId>
   <!-- project versioning -->
   <versioning>
-    <latest>1.1.2</latest>
-    <release>1.1.2</release>
+    <latest>1.1.3</latest>
+    <release>1.1.3</release>
     <!-- versions-->
     <versions>
       <version>1.0.0</version>
       <version>1.1.0</version>
       <version>1.1.1</version>
       <version>1.1.2</version>
+      <version>1.1.3</version>
     </versions>
-    <lastUpdated>20140627174131</lastUpdated>
+    <lastUpdated>20151122200527</lastUpdated>
   </versioning>
 </metadata>

@@ -113,6 +113,20 @@
    }
 },
 {
+  "name": "gitblit-hipchat-plugin",
+  "description": "Integrate Gitblit with your HipChat team",
+  "groupId": "com.gitblit.plugin",
+  "artifactId": "hipchat",
+  "version": "1.1.3",
+  "date": "2015-11-22",
+  "files": {
+    "pom": { "path": "com/gitblit/plugin/hipchat/1.1.3/hipchat-1.1.3.pom" },
+    "package": { "path": "com/gitblit/plugin/hipchat/1.1.3/hipchat-1.1.3.zip", "size":"33 KB" },
+    "sources": { "path": "", "size":"" },
+    "javadoc": { "path": "", "size":"" }
+   }
+},
+{
   "name": "gitblit-javamelody-plugin",
   "description": "Server monitoring based on JavaMelody",
   "groupId": "com.gitblit.plugin",
