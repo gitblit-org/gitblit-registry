@@ -43,6 +43,20 @@
    }
 },
 {
+  "name": "gitblit-glip-plugin",
+  "description": "Integrate Gitblit with your Glip team",
+  "groupId": "com.gitblit.plugin",
+  "artifactId": "glip",
+  "version": "1.0.1",
+  "date": "2015-11-22",
+  "files": {
+    "pom": { "path": "com/gitblit/plugin/glip/1.0.1/glip-1.0.1.pom" },
+    "package": { "path": "com/gitblit/plugin/glip/1.0.1/glip-1.0.1.zip", "size":"31 KB" },
+    "sources": { "path": "", "size":"" },
+    "javadoc": { "path": "", "size":"" }
+   }
+},
+{
   "name": "gitblit-hipchat-plugin",
   "description": "Integrate Gitblit with your HipChat team",
   "groupId": "com.gitblit.plugin",
