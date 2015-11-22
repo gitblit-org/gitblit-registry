@@ -58,6 +58,12 @@
                     "date": "2014-04-18T05:00:00Z",
                     "requires": "1.5.0",
                     "url": "${self}/com/gitblit/plugin/SmartTicketBranches/1.0.1/SmartTicketBranches-1.0.1.zip"
+                },
+                {
+                    "version": "1.0.2",
+                    "date": "2015-11-22T20:00:00Z",
+                    "requires": "1.7.0",
+                    "url": "${self}/com/gitblit/plugin/SmartTicketBranches/1.0.2/SmartTicketBranches-1.0.2.zip"
                 }
             ]
         },
