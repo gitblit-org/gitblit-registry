@@ -15,6 +15,20 @@
    }
 },
 {
+  "name": "gitblit-smartticketbranches-plugin",
+  "description": "Remove the ticket's branch when it is closed, create the branch when it is re-opened",
+  "groupId": "com.gitblit.plugin",
+  "artifactId": "SmartTicketBranches",
+  "version": "1.0.2",
+  "date": "2015-11-22",
+  "files": {
+    "pom": { "path": "com/gitblit/plugin/SmartTicketBranches/1.0.2/SmartTicketBranches-1.0.2.pom" },
+    "package": { "path": "com/gitblit/plugin/SmartTicketBranches/1.0.2/SmartTicketBranches-1.0.2.zip", "size":"14 KB" },
+    "sources": { "path": "", "size":"" },
+    "javadoc": { "path": "", "size":"" }
+   }
+},
+{
   "name": "gitblit-flowdock-plugin",
   "description": "Integrate Gitblit with your FlowDock team",
   "groupId": "com.gitblit.plugin",
